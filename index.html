@@ -1,52 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Pirates*Moon</title>
-<meta http-equiv="Refresh" content="0; url='https://shop.droptify.com'" />    
-<style>
-body {
-    background-color: #f2f2f2;
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-#logo {
-    margin-top: 100px;
-    width: 300px;
-    height: 300px;
-    animation: spin 12s infinite linear;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-h1 {
-    color: #333333;
-    font-size: 36px;
-    margin-top: 50px;
-}
-
-p {
-    color: #666666;
-    font-size: 24px;
-    margin-top: 20px;
-}
-</style>
+    <title>Pirate*Moon Whisky</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/survey-core/defaultV2.min.css" type="text/css" rel="stylesheet">
+    
+    <script type="text/javascript" src="https://unpkg.com/survey-core/survey.core.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <style> body { background-color: #f9f9f9; font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333333;
+        }
+        
+        p {
+            text-align: center;
+            color: #666666;
+        }
+        
+        .cta-button {
+            display: block;
+            width: 200px;
+            margin: 30px auto;
+            padding: 10px 20px;
+            text-align: center;
+            background-color: #333333;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        
+        .cta-button:hover {
+            background-color: #666666;
+        }
+        
+        .image-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-42HVYHK0ZD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-42HVYHK0ZD');
-</script>
-
-<body> 
-    <a href="https://shop.droptify.com"><img id="logo" src="https://alternativebongcau.s3.ap-southeast-1.amazonaws.com/2024-09-17/1726543258-819706-syllabe.png" alt="Logo"></a> 
-</body> 
+<body>
+    <div class="container">
+        <h1>Pirate*Moon Whisky</h1> 
+        <p>Welcome to Pirate*Moon Whisky, where the spirit of adventure meets the taste of perfection.</p> 
+            <div class="image-container"> 
+                <img src="https://alternativebongcau.s3.ap-southeast-1.amazonaws.com/2024-11-05/1730800369-941379-ahr0chm6ly9ilnn0ywjszwnvzy5jb20vztnkndhindqtzwvmns00otq3lwi2mmqtzgfmywexntzhowu3lmpwzwc.webp" alt="Pirate Ship on Stormy Sea"> 
+        </div>
+    <div id="surveyContainer"></div>
+</body>
 </html>
