@@ -3,16 +3,16 @@
 const surveyJson = {
     elements: [{
         name: "Your Name",
-        title: "Enter your name:",
+        title: "Tên Khách Hàng:",
         type: "text"
     }, {
         type: "text",
         name: "phoneNumber",
-        title: "Please enter your phone number:",
+        title: "Số Điện Thoại Liên Hệ:",
         isRequired: true,
       }, {
         name: "product",
-        title: "Select the products:",
+        title: "Loại Sản Phẩm:",
         type: "radiogroup",
         choices: [
             "Pirates*Moon Artificial Intelligence - 700ml - 250.000 VNĐ"
@@ -22,37 +22,37 @@ const surveyJson = {
     }, {
         type: "dropdown",
         name: "quantity",
-        title: "Quantity:",
+        title: "Số Lượng:",
         isRequired: true,
         defaultValue: 1,
         choices: Array.from({ length: 18 }, (_, i) => (i + 1).toString())
       }, {
         type: "text",
         name: "email",
-        title: "Please enter your email address:",
+        title: "Email Liên Hệ:",
         inputType: "email",
         validators: [
           {
             type: "email",
-            text: "Please enter a valid email address."
+            text: "Địa chỉ email dùng để nhận thông tin đơn hàng."
           }
         ]
       },{
         type: "text",
         name: "street",
-        title: "Street Address:",
+        title: "Địa Chỉ Nhận Hàng:",
         isRequired: true
       },
       {
         type: "text",
         name: "city",
-        title: "City:",
+        title: "Tỉnh/Thành Phố:",
         isRequired: true
     }, {
         type: "comment",
         name: "note",
-        title: "Note:",
-        placeHolder: "Additional note"
+        title: "Ghi Chú:",
+        placeHolder: "Thông tin ghi chú cho người giao hàng."
       }, ]
 };
 
