@@ -52,7 +52,7 @@ const surveyJson = {
         type: "comment",
         name: "note",
         title: "Ghi chú:",
-        placeHolder: "Những lưu ý dành cho người giao hàng."
+        placeHolder: "Những lưu ý dành cho đơn hàng hoặc người giao hàng."
       }, ]
 };
 
