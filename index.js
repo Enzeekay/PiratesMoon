@@ -8,7 +8,7 @@ const surveyJson = {
     }, {
         type: "text",
         name: "phoneNumber",
-        title: "Số điện thoại liên hệ:",
+        title: "Điện thoại liên hệ:",
         isRequired: true,
       }, {
         name: "product",
