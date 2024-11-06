@@ -13,6 +13,7 @@ const surveyJson = {
       }, {
         name: "product",
         title: "Chọn sản phẩm:",
+        isRequired: true,
         type: "radiogroup",
         choices: [
             "Pirates*Moon Artificial Intelligence - 700ml - 250.000 VNĐ"
