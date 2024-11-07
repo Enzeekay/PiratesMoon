@@ -16,9 +16,9 @@ const surveyJson = {
         isRequired: true,
         type: "radiogroup",
         choices: [
-            "Pirates*Moon Artificial Intelligence - 700ml - 250.000 VNĐ"
+            "Pirates*Moon Artificial Intelligence - 700ml - 249.000 VNĐ"
         ],
-        defaultValue: "Pirates*Moon Artificial Intelligence - 700ml - 250.000 VNĐ",
+        defaultValue: "Pirates*Moon Artificial Intelligence - 700ml - 249.000 VNĐ",
 
     }, {
         type: "dropdown",
